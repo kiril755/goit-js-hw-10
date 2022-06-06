@@ -19,7 +19,11 @@ body {
   margin-bottom: 16px;
 }
 
-.country_info {
+.country-info {
+  background-color: #48a9c5;
+}
+
+.country-info_head {
   display: flex;
 }
 
@@ -27,13 +31,20 @@ ul {
   list-style: none;
   padding: 0;
 }
-
+.country-list {
+  background-color: #74d2e7;
+}
 .country-info_item {
   display: flex;
+  background-color: #48a9c5;
 }
 
 .country-info_item:not(:last-child) {
   margin-bottom: 15px;
+}
+
+.contry-info_list {
+  background-color: #74d2e7;
 }
 
 .country-info_flag {
