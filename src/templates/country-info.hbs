@@ -1,0 +1,16 @@
+<div class='country_info'>
+  <img width='40' height='30' class='country-info_flag' src='{{flags.svg}}' alt='{{name}}' />
+  <div class='country-info_name'>{{name}}</div>
+</div>
+<ul class='contry-info_list'>
+  <li class='contry-info_capitals'>
+    <p class='contry-info_details'><span>Capitals: </span>{{capital}}</p>
+  </li>
+  <li class='contry-info_population'>
+    <p class='contry-info_details'><span>Population: </span>{{population}}</p>
+  </li>
+  <li class='contry-info_languages'>
+    <p class='contry-info_details'><span>Languages: </span>{{#each languages}}{{this.name}}
+      {{/each}}</p>
+  </li>
+</ul>
